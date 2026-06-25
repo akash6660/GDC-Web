@@ -1,23 +1,13 @@
 <!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
-<title>GDC Diagnostics</title>
+<title>GDC Diagnostics Login</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-</head><body>
-<nav><h2>GDC Diagnostics</h2><a href="login.html">Logout</a></nav>
-<header class="hero"><h1>Accurate Diagnostics. Trusted Healthcare.</h1><p>Blood, Urine and Health Checkups</p></header>
-<section class="grid">
-<div class="card"><h3>CBC</h3><p>Complete Blood Count</p></div>
-<div class="card"><h3>Blood Sugar</h3><p>Diabetes Screening</p></div>
-<div class="card"><h3>Urine Test</h3><p>Routine Analysis</p></div>
-<div class="card"><h3>Thyroid</h3><p>T3 T4 TSH</p></div>
-<div class="card"><h3>Liver Function</h3><p>LFT Profile</p></div>
-<div class="card"><h3>Kidney Function</h3><p>KFT Profile</p></div>
-</section>
-<section class="packages"><h2>Health Packages</h2>
-<div class="grid">
-<div class="card"><h3>Basic</h3><p>₹699</p></div>
-<div class="card"><h3>Executive</h3><p>₹1499</p></div>
-<div class="card"><h3>Senior Citizen</h3><p>₹1999</p></div>
-</div></section>
-<footer>Contact: gdc2028@gmail.com | Demo Website ©2026</footer>
-</body></html>
+</head><body class="login-page">
+<div class="login-container">
+<h1>GDC Diagnostics</h1><p>Laboratory Information System</p>
+<form id="loginForm">
+<input id="email" type="email" placeholder="Email" required>
+<input id="password" type="password" placeholder="Password" required>
+<button class="login-btn">Sign In</button>
+<p id="error-message"></p>
+</form></div><script src="script.js"></script></body></html>
